@@ -8,7 +8,7 @@
         <version>2.3.12.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-   <groupId>io.github.swangeese</groupId>
+    <groupId>io.github.swangeese</groupId>
     <artifactId>geo-location</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>geo-location</name>
@@ -131,5 +131,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
