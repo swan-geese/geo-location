@@ -8,11 +8,12 @@
         <version>2.3.12.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hongyan.study</groupId>
+   <groupId>io.github.swangeese</groupId>
     <artifactId>geo-location</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>geo-location</name>
-    <description>geo-location</description>
+    <url>https://github.com/swan-geese/geo-location</url>
+    <description>geo-location IP地理定位综合解决方案</description>
     <properties>
         <java.version>11</java.version>
     </properties>
